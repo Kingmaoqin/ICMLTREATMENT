@@ -1,11 +1,5 @@
 # Confounding-Adjusted Counterfactual Diffusion + OPM
 
-This repository implements **"Confounding Adjusted Multi-Treatment Effect Estimation via Counterfactual Diffusion + Orthogonal Proximal Moments (OPM)"** in PyTorch. It is end-to-end trainable with a modular design and a CLI.
-
-**Important constraints (explicitly verified):**
-- **No LLMs are used** anywhere in this codebase.
-- **Self-supervised LSSL is implemented** (contrastive, preservation, diversity/logdet) for confounder separation.
-- The representation encoder is trained **end-to-end from `L_SSL + L_DIFF + L_OPM`** plus optional supervised auxiliaries.
 
 ## Installation
 
